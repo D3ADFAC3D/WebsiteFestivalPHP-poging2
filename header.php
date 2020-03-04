@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website poging 2</title>
     <!-- <link rel="stylesheet" href="overig/main.css">  -->
+    <link rel="stylesheet" href="overig/simple.css">
 </head>
 <body>
     
     <header>
-            <div id="linkjes">
+            <div id="menu">
         <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -19,7 +20,7 @@
             </div>
 
 
-            <div id="login&regis">
+            <div id="loginENregis">
                 <form action="overig/login.overig.php" method="POST">
                     <input type="text" name="mailuid" placeholder="Username/E-mail...">
                     <input type="password" name="pwd" placeholder="Password">
