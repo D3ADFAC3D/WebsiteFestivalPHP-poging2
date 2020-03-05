@@ -13,9 +13,9 @@
             <div id="menu">
         <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Profiel</a></li>
-                    <li><a href="#">Inloggen/Registreren</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PROFIEL</a></li>
+                    <li><a href="#">INLOGGEN/REGISTREREN</a></li>
                 </ul>
             </div>
 
@@ -24,12 +24,12 @@
                 <form action="overig/login.overig.php" method="POST">
                     <input type="text" name="mailuid" placeholder="Username/E-mail...">
                     <input type="password" name="pwd" placeholder="Password">
-                    <button type="submit" name="login-submit">Login</button>
+                    <button type="submit" name="login-submit">LOGIN</button>
                 </form>
-                <a href="registreren.php">Registreren</a>
+                <a href="registreren.php">REGISTREREN</a>
 
                 <form action="overig/loguit.overig.php" method="POST">
-                    <button type="submit" name="logout-submit">Logout</button>
+                    <button id= "btnLogout" type="submit" name="logout-submit">LOGOUT</button>
                 </form>
             </div>
         </nav>

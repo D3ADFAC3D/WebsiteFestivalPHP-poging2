@@ -11,11 +11,10 @@ header{
     background: black;
     color: rgb(255, 81, 0);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #menu{
-    float: left;
     width: 500px;
     height: auto;
     align-self: center;
@@ -29,6 +28,41 @@ header{
     align-self: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/* #loginENregis ::placeholder{
+    color: rgb(255, 81, 0);
+} */
+
+#loginENregis form input{
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 0px;
+    
+    padding: 10px 10px; 
+    line-height: 15px;
+}
+
+#loginENregis button{
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 81, 0);
+    border: 0px black;
+    padding: 10px ;
+    font-size: 15px;
+    font-family: inherit;
+    
+}
+
+#loginENregis a{
+    text-align: center;
+    align-self: center;
+}
+
+#btnLogout{
+    margin: 0px 10px 0px 10px;
 }
 
 header a{
