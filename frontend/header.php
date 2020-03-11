@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website poging 2</title>
-    <link rel="stylesheet" href="overig/simple.css">
+    <link rel="stylesheet" href="simple.css" type="text/css">
 </head>
 <body>
     <header>

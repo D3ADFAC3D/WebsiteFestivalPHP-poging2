@@ -94,7 +94,7 @@ header a{
 }
 
 #contentBack{
-    background: url(Black-Orange_Wallpaper.png) no-repeat center center fixed;
+    background: url(overig/Black-Orange_Wallpaper.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-backround-size: cover;
     -o-background-size: cover;
@@ -109,7 +109,7 @@ header a{
 
 .cover{
     height: 1080px;
-    background: url(Black-Orange_Wallpaper.png) no-repeat center center;
+    background: url(overig/Black-Orange_Wallpaper.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,13 +120,6 @@ main h1{
     text-align: center;
 }
 
-.Main
-{
-    position:relative;
-    min-height:100%;
-    height:auto !important;
-    height:100%;    
-}
 
 #footerNest {
     display: flex;
